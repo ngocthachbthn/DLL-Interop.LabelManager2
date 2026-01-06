@@ -1,0 +1,10 @@
+﻿namespace LabelManager2
+{
+    using System;
+    using System.Runtime.CompilerServices;
+    using System.Runtime.InteropServices;
+
+    [TypeLibType((short) 0x10), ComVisible(false)]
+    public delegate void INotifyApplicationEvent_DocumentClosedEventHandler([In, MarshalAs(UnmanagedType.BStr)] string strDocTitle);
+}
+
